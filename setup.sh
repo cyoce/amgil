@@ -1,1 +1,5 @@
-apt-get install -y python3-gpiozero
+crontab -l > crontemp
+echo '@reboot ~/start.sh' >> crontemp
+crontab crontemp
+rm contemp
+
