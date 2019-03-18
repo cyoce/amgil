@@ -1,4 +1,4 @@
-crontab -l > crontemp
-echo '@reboot ~/start.sh' >> crontemp
-crontab crontemp
-rm contemp
+crontab -l > ~/crontemp.txt
+echo '@reboot ~/start.sh' >> ~/crontemp.txt
+crontab ~/crontemp.txt
+rm ~/contemp.txt
